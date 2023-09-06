@@ -1,0 +1,449 @@
+@media (max-width: 1000px) {
+  .home-section {
+    min-height: 100vh;
+  }
+  .container {
+    padding: 0;
+  }
+  .nav-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 0px;
+    font-size: 12px;
+  }
+  .logo {
+    height: 60px;
+  }
+  .nav-bar,
+  .free-nav {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .home-section {
+    padding: 0;
+  }
+
+  .home-text {
+    margin: 150px auto 0;
+  }
+
+  /* todo Text */
+  .home-text h1 {
+    font-size: 3rem;
+  }
+  .home-text p {
+    font-size: 1.13rem;
+  }
+  .home-text button {
+    padding: 15px 30px;
+  }
+
+  /* todo Media Icon */
+  .media-icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+
+  /* todo Contact Section */
+  .contact-section {
+    width: 100%;
+    position: absolute;
+    top: 82%;
+  }
+
+  /*! Service Section */
+
+  .services-section {
+    padding: 220px 0 30px;
+    width: 94%;
+  }
+  .service-head h1 {
+    font-size: 2.1rem;
+    letter-spacing: 0.05rem;
+  }
+  .service-head h1::before {
+    font-size: 5rem;
+    position: absolute;
+    top: -60px;
+    left: -35px;
+    letter-spacing: 1.2rem;
+    color: #f7f7f7;
+  }
+
+  .service-cards {
+    padding-top: 70px;
+  }
+  .service-card h3 {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  .service-card p {
+    margin-top: -10px;
+  }
+
+  /*! About Section */
+  .about-section {
+    width: 84%;
+    display: block;
+    margin: 100px auto;
+    height: auto;
+  }
+  .abot-img {
+    padding-right: 70px;
+  }
+  .about-text {
+    padding: 100px 0px 0;
+  }
+  .about-text h1 {
+    font-size: 2.1rem;
+  }
+  .about-text h1::before {
+    top: -60px;
+    left: -55px;
+    font-size: 4.5rem;
+  }
+  .about-text p {
+    width: 90%;
+  }
+
+  /*todo Counting Section */
+  .counting-section {
+    padding-left: 80px;
+  }
+  .counting h1 {
+    font-size: 3.8rem;
+  }
+  .counting p {
+    width: 110px;
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+
+  /*! Projects */
+  .our-work-head {
+    padding-top: 30px;
+  }
+  .our-work-head h1 {
+    font-size: 2.1rem;
+  }
+  .our-work-head h1::before {
+    margin-left: 0%;
+    margin-left: 0px;
+  }
+
+  /* ? work-photo */
+  .work-photo {
+    width: 32%;
+  }
+  .our-work-photos {
+    padding: 0;
+    padding-top: 10vh;
+    gap: 10px;
+    margin: 0 1vw;
+  }
+
+  .our-work-text {
+    margin: 15px 0;
+  }
+  .our-work-text h1 {
+    font-size: 2.1rem;
+  }
+  .our-work-text p {
+    font-size: 1.12rem;
+  }
+  .our-work-text h5 {
+    font-size: 0.8rem;
+    letter-spacing: 0.05rem;
+  }
+
+  /*! PROFESSIONALS */
+  .professionals-head{
+    padding-top: 0px;
+  }
+
+  /*! LATEST NEWS */
+
+  .latest-new-head h1 {
+    font-size: 2.1rem;
+  }
+  .latest-new-head h1::before {
+    margin-left: -40px;
+  }
+
+  /*!  TRUSTED COMPANIES */
+
+  .trusted-section {
+    display: block;
+  }
+  .trusted-head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .trusted-head h1 {
+    font-size: 1.2rem;
+    margin-top: 30px;
+    font-weight: lighter;
+  }
+  .logos {
+    width: 100%;
+    padding: 10vh 0px;
+  }
+  .logos h1 {
+    width: 20%;
+    align-items: flex-start;
+  }
+
+  /* ! Footer */
+  footer {
+    width: 100%;
+  }
+  footer .logo {
+    margin-top: 4vh;
+  }
+}
+
+/* ****************************************************************** */
+@media (max-width: 770px) {
+  /* todo Text */
+  .home-text h1 {
+    font-size: 2.6rem;
+  }
+  .home-text {
+    margin: 60px auto 0;
+    line-height: 0px;
+  }
+  .home-text button {
+    margin-top: 10px;
+  }
+  .media-icon {
+    position: absolute;
+    right: 0;
+    top: 60%;
+  }
+
+  /* todo Contact Section */
+  .contact-section {
+    position: absolute;
+    top: 97%;
+  }
+
+  /*todo service-head */
+  .services-section {
+    padding: 0;
+    margin: 60% auto;
+    width: 92%;
+  }
+  .service-head {
+    display: inline;
+  }
+  .service-head p {
+    width: max-content;
+  }
+  .service-cards {
+    display: inline-block;
+    gap: 25px;
+    padding-top: 50px;
+  }
+  .service-head h1 {
+    font-size: 1.35rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 10px;
+  }
+  .service-head h1::before {
+    font-size: 4rem;
+    top: -60px;
+    left: -30px;
+  }
+  .service-card p {
+    font-size: 1rem;
+  }
+
+  /*! About Section */
+
+  .about-section {
+    width: 90%;
+    display: block;
+    margin: -40% auto;
+    padding: 0 auto;
+  }
+  .abot-img {
+    width: 100%;
+    margin: 100px auto 0px;
+    padding: 0px;
+  }
+  .about-text {
+    width: 100%;
+  }
+  .about-text h1::before {
+    top: -50px;
+    left: -30px;
+    font-size: 3.5rem;
+  }
+  .about-text p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+
+  /*todo Counting */
+  .counting-section {
+    padding: 0 20px;
+    display: block;
+    margin-top: 50%;
+  }
+  .counting {
+    width: 100%;
+  }
+  .counting h1 {
+    margin-bottom: 10px;
+  }
+  .counting p {
+    width: max-content;
+    margin-bottom: 10px;
+  }
+
+  /*! Projects */
+  .projects-container {
+    margin-top: 50px;
+  }
+  .our-work-head {
+    display: block;
+    padding-left: 30px;
+    width: 100%;
+  }
+  .our-work-head h1 {
+    font-size: 1.75rem;
+    padding: 10px 0px;
+  }
+  .our-work-head h1::before {
+    bottom: 40%;
+  }
+
+  /* ? work-photo */
+  .work-photo {
+    width: 100%;
+  }
+  .our-work-photos {
+    gap: 15px;
+    margin: 0 2vw;
+  }
+
+  .our-work-text {
+    text-align: left;
+    margin: 1%;
+    padding: 7% 40px;
+  }
+  .our-work-text h1 {
+    font-size: 1.6rem;
+    letter-spacing: 0.05rem;
+  }
+
+  /*! PROFESSIONALS */
+  .professionals{
+    padding: 0 30px;
+  }
+  .professionals-head{
+    display: block;
+    padding-bottom: 30px;
+  }
+  .professionals-head h1{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+  }
+
+  .professionals-teams{
+    display: block;
+  }
+  .professionals-teams .icons{
+    right: 0;
+    bottom: 120px;
+  }
+  .professionals-team{
+    margin-bottom: 10px;
+  }
+
+
+  /*! LATEST NEWS */
+
+  .latest-new-section {
+    padding: 0 20px;
+  }
+  .latest-new-head {
+    display: block;
+    padding-top: 5%;
+  }
+  .latest-new-head h1 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  .latest-new-head h1::before {
+    margin-left: -20px;
+    top: -70px;
+  }
+
+  /*todo blogs-cards */
+  .blogs-cards {
+    display: block;
+  }
+  .blogs-card {
+    flex-basis: 100%;
+    padding-bottom: 50px;
+  }
+
+  /*!  TRUSTED COMPANIES */
+
+  .trusted-section {
+    margin-top: -100px;
+  }
+  .logos {
+    display: block;
+    padding: 0;
+    justify-content: center;
+  }
+  .logos h1 {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ! Footer */
+  footer{
+    padding: 50px 30px 0;
+  }
+  span {
+    width: 70%;
+  }
+  .footer-text{
+    display: block;
+    margin-bottom: 50px;
+  }
+  .footer-about,
+  .footer-services,
+  .footer-contact {
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 50px;
+  }
+ 
+}
+
+/* ********************************************************* */
+@media (max-width: 500px) {
+  .home-text h1 {
+    line-height: 40px;
+  }
+  .home-text p {
+    line-height: 25px;
+  }
+  .service-head h1::before {
+    font-size: 3rem;
+  }
+}
